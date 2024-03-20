@@ -1,0 +1,62 @@
+.kingsRoadWrapper{
+.container{
+  .row{
+    .col-lg-12{
+      .d-flex{
+        .box{
+          min-width: 200px;
+          .imgBox{
+            min-height: 200px;
+            min-width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+            img{
+              max-width: 100%;
+            }
+          }
+          .btn{
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            &.open{
+              border-color: #C6A465;
+              background-color: #C6A465;
+              color: #FBF9ED;
+              font-size: 14px;
+              font-weight: 600;
+            }
+            &.locked{
+              border-color: #9D9D9D;
+              background-color: transparent;
+              color: #FBF9ED;
+              font-size: 14px;
+              font-weight: 600;
+            }
+
+          }
+          p{
+            color: #9D9D9D;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 0.3rem;
+          }
+          h5{
+            color: #9D9D9D;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+
+            span{
+              color: #C6A465;
+              font-size: 14px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}

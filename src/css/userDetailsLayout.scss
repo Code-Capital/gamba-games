@@ -1,0 +1,83 @@
+.tabPagesLayoutWrapper{
+  .container{
+    .row{
+      .col-lg-12{
+        .d-flex{
+          align-items: end;
+          margin-bottom: 8px;
+          .number{
+            color: #9D9D9D;
+            font-size: 12px;
+            font-weight: 400;
+            span{
+              color: #FBF9ED;
+              font-size: 16px;
+              font-weight: 300;
+
+              &.bg{
+                background-color: #017455;
+                min-width: 44px;
+                min-height: 44px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 3px;
+                color: #FBF9ED;
+                font-size: 24px;
+                font-weight: 700;
+              }
+
+            }
+          }
+        }
+
+      }
+      .col-lg-8{
+        .profileWrapper{
+          img{
+            width: 112px;
+            height: 112px;
+            object-fit: contain;
+            border-radius: 8px;
+          }
+          h2{
+            color: #FBF9ED;
+            font-size: 36px;
+            font-weight: 900;
+            span{
+              color: #FBF9ED;
+              font-size: 16px;
+              font-weight: 200;
+            }
+          }
+          p{
+            color: #FBF9ED;
+            font-size: 15px;
+            font-weight: 100;
+            span{
+              color: #FBF9ED;
+              font-size: 16px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .col-lg-4{
+      .d-flex{
+        h5{
+          color: #FBF9ED;
+          font-size: 14px;
+          font-weight: 600;
+        }
+        p{
+          color: #FBF9ED;
+          font-size: 14px;
+          font-weight: 300;
+        }
+      }
+      }
+    }
+  }
+
+
+}

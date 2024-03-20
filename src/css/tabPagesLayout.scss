@@ -1,0 +1,43 @@
+.tabPagesLayoutWrapper{
+  .container{
+    .row{
+      .col-lg-12{
+        .nav-tabs{
+          margin: 0 auto;
+          justify-content: center;
+          gap: 0.5rem;
+          .nav-item{
+            *{
+              border-radius: 5px;
+            }
+            .nav-link {
+              border: 1px solid #353535;
+              font-size: 12px;
+              color: #ffffff;
+              font-weight: 700;
+              background-color: #353535;
+              border-radius: 5px !important;
+              padding-left: 2rem;
+              padding-right: 2rem;
+
+              &:hover {
+                border: 1px solid;
+                border-image-slice: 1;
+                border-radius: 5px;
+                border-image-source: linear-gradient(to right, #C6A465, #35353599);
+              }
+
+              &.active {
+                border: 1px solid;
+                border-image-slice: 1;
+                background-image: linear-gradient(to right, #C6A465, #35353599);
+                border-image-source: linear-gradient(to right, #C6A465, #35353599);
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
