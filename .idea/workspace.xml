@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a228012e-b7e4-409d-a0c8-7191f812cb46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/RoulettePin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/affiliates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/affliates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/freeCoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/game.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/blackCoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/gun1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/gun2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/gun3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/gun4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/gun5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/king.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/king1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/king2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/paymentIcon9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/percentage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/redArrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/refree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/routetteItem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/routetteItem1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/routetteItem3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/routetteItem4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/scoreCoin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/scoreCoin2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/sword.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/twoCoins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/whiteCoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/king.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/knight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/loginImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/mainbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/modalImage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/noble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rakeBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/roulletePinColor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rulesBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spinnerImage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spinnerImage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spinnerImage3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spinnerImage4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spinnerImage5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spinnerImage6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/splitCoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/squire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/steamIcon1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/swordsman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/twoCoins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/walletModal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/workCard1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/workCard2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/workCard3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/workCard4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ChatModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ChatSidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/CoinFlip.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/CoinFlipModalOne.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/CoinFlipTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/CreateModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/GameCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/GameSignedOut.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/AffiliatesIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Bitcoin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/CoinIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/CopyIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Csgo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Dota.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Etherium.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Google.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/HistoryIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/LogoTilted.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/LogoutIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/PaySafe.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Paypal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/ProfileIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/Rust.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/SettingsIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/SideBarArrow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/TF2.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/TransactionIcon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/gun1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/gun2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/gun3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/gun4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Icons/gun5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/LoginForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/LoginModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/MyHorizontalRoulette.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/PaymentHistory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/PayoutMethod.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Refree.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Routette.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/SingleBet.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Stats.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/WalletModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/WithDraw.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/CoinFlip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Pages/MainPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Pages/MainPage.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Pages/MainPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/WalletModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/affiliates.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/chatModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/chatSidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/coinFlipModalOne.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/coinFlipTable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/createModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/gameSignedOut.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/gameWrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/loginForm.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/loginModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/payout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/payoutHistory.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/refree.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/routette.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/spinner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/stats.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/withDraw.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/GameSignedOutLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/HomeLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CoinFlipPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DefaultPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/GameRoulettePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/KingRoadPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ProfilePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/UserRoulettePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/ProtectedRoutes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-E7Z2OHL6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-E7Z2OHL6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-FY4S5NPQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-FY4S5NPQ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-GALNHDRO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-GALNHDRO.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-HV6DCOPB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-HV6DCOPB.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-KCFZ7QU2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-KCFZ7QU2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-M2M7ZY3S.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-M2M7ZY3S.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-NL5PAHER.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-NL5PAHER.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-PUEFBIQG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-PUEFBIQG.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-QY23PHIZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-QY23PHIZ.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-RQILQVP7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-RQILQVP7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-RWKEXPDG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-RWKEXPDG.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-USAW5ZLM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-USAW5ZLM.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-UT2YW7HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-UT2YW7HU.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-Y63TJD34.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-Y63TJD34.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-Y67KMEH3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-Y67KMEH3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-ZQSAU2CP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-ZQSAU2CP.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/rc-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/rc-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/rc-slider.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/rc-slider.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_NavDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_NavDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_OverlayTrigger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_OverlayTrigger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_ProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_ProgressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-bootstrap_Tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Affiliates.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Affiliates.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/KingsRoad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/KingsRoad.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/kingsRoads.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/kingsRoads.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/kingsRoads.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/kingsRoads.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/kingsRoads.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/kingsRoads.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tabPagesLayout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tabPagesLayout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tabPagesLayout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tabPagesLayout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tabPagesLayout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tabPagesLayout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/TabPagesLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/TabPagesLayout.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dcycusEeyHPe3X8zYb1XFhx8Js" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ayanshamaoon/Desktop/ReactProject/gamba-games/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/component/Icons" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/public/favicon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/layouts" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a228012e-b7e4-409d-a0c8-7191f812cb46" name="Changes" comment="" />
+      <created>1710321743831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710321743831</updated>
+      <workItem from="1710321745832" duration="19372000" />
+      <workItem from="1710495167042" duration="18074000" />
+      <workItem from="1710760150792" duration="11674000" />
+      <workItem from="1710841126552" duration="5774000" />
+      <workItem from="1710869881896" duration="6000" />
+      <workItem from="1710912361893" duration="55989000" />
+      <workItem from="1711172032246" duration="119044000" />
+      <workItem from="1711689270721" duration="9388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

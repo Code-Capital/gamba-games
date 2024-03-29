@@ -1,0 +1,138 @@
+.withDraw .row .col-md-8 .inputWrapper label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #FBF9ED;
+}
+.withDraw .row .col-md-8 .inputWrapper input {
+  background-color: #353535;
+  border-color: #353535;
+  border-radius: 5px;
+  color: #9D9D9D;
+  font-size: 14px;
+  font-weight: 400;
+}
+.withDraw .row .col-md-8 .inputWrapper input::placeholder {
+  color: #9D9D9D;
+}
+.withDraw .row .col-md-8 .inputWrapper input:focus-visible, .withDraw .row .col-md-8 .inputWrapper input:focus {
+  box-shadow: unset !important;
+  border-color: #FBF9ED !important;
+  outline: unset !important;
+}
+.withDraw .row .col-md-4 button {
+  background-color: #C6A465;
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  height: 33px;
+}
+.withDraw .row .col-lg-12 .h2 {
+  color: #FBF9ED;
+  font-size: 16px;
+  font-weight: 900;
+}
+.withDraw .row .col-lg-12 .h2 span {
+  color: #C6A465;
+}
+.withDraw .row .col-lg-12 .text-center {
+  color: #9D9D9D;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+.withDraw .row .col-md-3 .wrapper, .withDraw .row .col-md-6 .wrapper {
+  cursor: pointer;
+}
+.withDraw .row .col-md-3 .wrapper .money, .withDraw .row .col-md-6 .wrapper .money {
+  cursor: pointer;
+  width: 100%;
+  min-height: 70px;
+  border-radius: 5px 5px 0 0;
+  background: #353535;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-rust:hover, .withDraw .row .col-md-6 .wrapper .money.bg-rust:hover {
+  background-color: #CE422B;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-rust:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-rust:hover svg path {
+  fill: #281C1C;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-tf:hover, .withDraw .row .col-md-6 .wrapper .money.bg-tf:hover {
+  background-color: #262425;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-tf:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-tf:hover svg path {
+  fill: #9D5322;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-Csgo:hover, .withDraw .row .col-md-6 .wrapper .money.bg-Csgo:hover {
+  background-color: #EABF62;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-Csgo:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-Csgo:hover svg path {
+  fill: #000000;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-Dota:hover, .withDraw .row .col-md-6 .wrapper .money.bg-Dota:hover {
+  background-color: #4D4C4B;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-Dota:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-Dota:hover svg path {
+  fill: #D43B24;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-ethrium:hover, .withDraw .row .col-md-6 .wrapper .money.bg-ethrium:hover {
+  background-color: #627EEA;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-ethrium:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-ethrium:hover svg path {
+  fill: #FFFFFF;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-bitcoin:hover, .withDraw .row .col-md-6 .wrapper .money.bg-bitcoin:hover {
+  background-color: #F7931A;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-bitcoin:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-bitcoin:hover svg path {
+  fill: #FFFFFF;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-card:hover, .withDraw .row .col-md-6 .wrapper .money.bg-card:hover {
+  background-color: #0E4595;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-card:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-card:hover svg path {
+  fill: #FFFFFF;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-paypal:hover, .withDraw .row .col-md-6 .wrapper .money.bg-paypal:hover {
+  background-color: #FFFFFF;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-paypal:hover svg path:first-child, .withDraw .row .col-md-6 .wrapper .money.bg-paypal:hover svg path:first-child {
+  fill: #002987;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-paypal:hover svg path:last-child, .withDraw .row .col-md-6 .wrapper .money.bg-paypal:hover svg path:last-child {
+  fill: #0085CC;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-paysafe:hover, .withDraw .row .col-md-6 .wrapper .money.bg-paysafe:hover {
+  background-color: #FFFFFF;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-paysafe:hover svg path, .withDraw .row .col-md-6 .wrapper .money.bg-paysafe:hover svg path {
+  fill: #FE0115;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-google svg path:nth-of-type(1), .withDraw .row .col-md-6 .wrapper .money.bg-google svg path:nth-of-type(1) {
+  fill: #C6A465;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-google:hover, .withDraw .row .col-md-6 .wrapper .money.bg-google:hover {
+  background-color: #FFFFFF;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-google:hover svg path:nth-of-type(1), .withDraw .row .col-md-6 .wrapper .money.bg-google:hover svg path:nth-of-type(1) {
+  fill: #FFC107;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-google:hover svg path:nth-of-type(2), .withDraw .row .col-md-6 .wrapper .money.bg-google:hover svg path:nth-of-type(2) {
+  fill: #FF3D00;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-google:hover svg path:nth-of-type(3), .withDraw .row .col-md-6 .wrapper .money.bg-google:hover svg path:nth-of-type(3) {
+  fill: #4CAF50;
+}
+.withDraw .row .col-md-3 .wrapper .money.bg-google:hover svg path:nth-of-type(4), .withDraw .row .col-md-6 .wrapper .money.bg-google:hover svg path:nth-of-type(4) {
+  fill: #1976D2;
+}
+.withDraw .row .col-md-3 .wrapper .name, .withDraw .row .col-md-6 .wrapper .name {
+  background-color: #282828;
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 0 0 5px 5px;
+}
+
+/*# sourceMappingURL=withDraw.css.map */

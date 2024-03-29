@@ -1,0 +1,66 @@
+.coinFlip {
+  .row {
+    .col-lg-4 {
+      .h2 {
+        color: #C6A465;
+        font-size: 36px;
+        font-weight: 900;
+        span {
+          color: #FBF9ED;
+        }
+      }
+      .d-flex{
+        div{
+          span{
+            display: block;
+            &:first-child{
+              color: #C6A465;
+              text-align: center;
+              font-size: 11px;
+              font-weight: 900;
+            }
+            &:last-child{
+              color: #FBF9ED;
+              text-align: center;
+              font-size: 14px;
+              font-weight: 900;
+            }
+          }
+        }
+        .coin{
+            img{
+
+            }
+          .position-absolute{
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6F7073;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 900;
+            line-height: normal;
+            &.white{
+              color: #FBF9ED;
+            }
+          }
+        }
+        .btnWrapper{
+          .btn{
+            background-color: #C6A465;
+            color: #FBF9ED;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1.4px;
+          }
+        }
+      }
+    }
+  }
+}

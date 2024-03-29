@@ -50,7 +50,7 @@ function Settings() {
                                 </div>
                                 <div className="col-lg-7 mb-3">
                                     {/* Language selection */}
-                                    <div className="select">
+                                    <div className="select position-relative">
                                         <div className="optionClick d-flex align-items-center justify-content-between rounded" onClick={toggleOptions}>
                                             <div className="d-flex gap-2">
                                                 <img src={uk} alt="UK flag" />
@@ -63,7 +63,7 @@ function Settings() {
                                             </div>
                                         </div>
                                         {isOpen && (
-                                            <div className="optionOpener mt-1">
+                                            <div className="optionOpener mt-1 position-absolute w-100">
                                                 <div className="optionWrapper">
                                                     {languageOptions.map((option, index) => (
                                                         <div className={`option d-flex justify-content-between ${option.language}`} key={index} onClick={() => handleOptionClick(option.language, option.value)}>

@@ -1,0 +1,109 @@
+.refreeHistory {
+  .row {
+    .col-lg-12 {
+      .h2{
+        color: #C6A465;
+        font-size: 36px;
+        font-weight: 900;
+        span{
+          color: #FBF9ED;
+        }
+      }
+
+      .table-responsive {
+        min-height: 500px;
+        max-height: 500px;
+        overflow-y: scroll;
+        &::-webkit-scrollbar-track {
+          background: #434343;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: #9D9D9D;
+        }
+        &::-webkit-scrollbar {
+          width: 2px;
+        }
+        .table {
+          tbody>tr:nth-of-type(odd)>*{
+            background-color: transparent;
+          }
+          tbody>tr:nth-of-type(even)>*{
+            background-color: #313131;
+          }
+          tbody:not(caption)>*>*{
+            box-shadow: unset !important;
+            border-color: transparent !important;
+            border-bottom-width: unset !important;
+          }
+          thead {
+            tr{
+              border-bottom: 1px solid #434343 !important;
+              th{
+                background-color: transparent;
+                color: #9D9D9D;
+                font-size: 16px;
+                font-weight: 800;
+                padding-top: 0.8rem;
+                padding-bottom: 0.8rem;
+                width: 15%;
+                &.width{
+                  width: 40%;
+                }
+                @media only screen and (max-width: 992px){
+                  width: unset !important;
+                  &.width{
+                    width: unset !important;
+                  }
+                }
+              }
+            }
+
+
+          }
+          tbody{
+            tr{
+
+              td{
+                color: #FBF9ED;
+                font-size: 12px;
+                font-weight: 300;
+                padding-top: 0.8rem;
+                padding-bottom: 0.8rem;
+                &.active{
+                  color: #C6A465;
+                }
+                &.inActive{
+                  color: #F4F2EA;
+                }
+                &.name{
+                  font-weight: 500;
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
+    .col-lg-6 {
+      .conditions {
+        .d-flex {
+          .image-box {
+            width: 30px;
+            height: 30px;
+
+            img {
+              max-width: 30px;
+            }
+          }
+
+          span {
+            color: #FBF9ED;
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+.coinFlipTable{
+  .col-lg-12 {
+    .table-responsive {
+
+      &::-webkit-scrollbar-track {
+        background: #434343;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #9D9D9D;
+      }
+
+      &::-webkit-scrollbar {
+        width: 2px;
+      }
+
+      .table {
+        tbody > tr:nth-of-type(odd) > * {
+          background-color: transparent;
+        }
+
+        tbody > tr:nth-of-type(even) > * {
+          background-color: #313131;
+        }
+
+        tbody:not(caption) > * > * {
+          box-shadow: unset !important;
+          border-color: transparent !important;
+          border-bottom-width: unset !important;
+        }
+
+        thead {
+          tr {
+            border-bottom: 1px solid #434343 !important;
+
+            th {
+              background-color: transparent;
+              color: #9D9D9D;
+              font-size: 16px;
+              font-weight: 800;
+              padding-top: 0.8rem;
+              padding-bottom: 0.8rem;
+              width: 15%;
+
+              &.width {
+                width: 40%;
+              }
+
+              @media only screen and (max-width: 992px) {
+                width: unset !important;
+                &.width {
+                  width: unset !important;
+                }
+              }
+            }
+          }
+
+
+        }
+
+        tbody {
+          tr {
+
+
+            td {
+              color: #FBF9ED;
+              font-size: 12px;
+              font-weight: 300;
+              padding-top: 0.8rem;
+              padding-left: 0.4rem;
+              padding-right: 0.4rem;
+              padding-bottom: 0.8rem;
+
+              &.positive-payout {
+                color: #C6A465;
+                font-size: 12px;
+                font-weight: 700;
+              }
+
+              &.inActive {
+                color: #F4F2EA;
+              }
+
+              &.name {
+
+                span {
+                  text-align: left;
+
+                  &:first-child {
+                    font-weight: 500;
+                    color: #FBF9ED;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                  }
+
+                  &:last-child {
+                    color: #C6A465;
+                  }
+                }
+
+                img {
+                  width: 46px;
+                  height: 46px;
+                  flex-shrink: 0;
+                }
+              }
+
+              &.guns {
+                img {
+                  width: 68px;
+                  height: 45px;
+                }
+
+                span {
+                  color: #FBF9ED;
+                  font-size: 14px;
+                  font-weight: 300;
+                }
+              }
+
+              &.buttons {
+                .position-absolute {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  left: -1rem;
+
+                  img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 6px;
+                  }
+                }
+
+                .btn {
+                  height: 48px;
+
+                  &.join {
+                    min-width: 110px;
+                    color: #FBF9ED;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background-color: #C6A465;
+                    border-color: #C6A465;
+                  }
+
+                  &.joining {
+                    min-width: 110px;
+                    background-color: #515357;
+                    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+                    color: #FBF9ED;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: 600;
+                    border-color: #515357;
+                    background-size: 1.5rem 1.5rem;
+                  }
+
+                  &.view {
+                    color: #FBF9ED;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background-color: transparent;
+                    border-color: #9D9D9D;
+                  }
+
+                  &.winner {
+                    min-width: 110px;
+                    background-color: #FBF9ED;
+                    color: #6F7073;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: 600;
+                  }
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

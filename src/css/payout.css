@@ -1,0 +1,42 @@
+.payoutMethods .row .col-lg-12 .paymentMethods::before {
+  content: "";
+  display: block;
+  height: 2px;
+  flex-shrink: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(198, 164, 101, 0) 0%, #C6A465 51.67%, rgba(198, 164, 101, 0) 100%);
+}
+.payoutMethods .row .col-lg-12 .paymentMethods::after {
+  content: "";
+  display: block;
+  height: 2px;
+  flex-shrink: 0;
+  background: linear-gradient(to bottom right, rgba(198, 164, 101, 0) 0%, #C6A465 26%, rgba(198, 164, 101, 0) 50%) bottom right/50% 50% no-repeat, linear-gradient(to bottom left, rgba(198, 164, 101, 0) 0%, #C6A465 26%, rgba(198, 164, 101, 0) 50%) bottom left/50% 50% no-repeat, linear-gradient(to top left, rgba(198, 164, 101, 0) 0%, #C6A465 26%, rgba(198, 164, 101, 0) 50%) top left/50% 50% no-repeat, linear-gradient(to top right, rgba(198, 164, 101, 0) 0%, #C6A465 26%, rgba(198, 164, 101, 0) 50%) top right/50% 50% no-repeat;
+}
+.payoutMethods .row .col-lg-12 .paymentMethods .h5 {
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+.payoutMethods .row .col-lg-12 .h2 {
+  color: #C6A465;
+  font-size: 36px;
+  font-weight: 900;
+}
+.payoutMethods .row .col-lg-12 .h2 span {
+  color: #FBF9ED;
+}
+.payoutMethods .row .col-lg-6 .conditions .d-flex .image-box {
+  width: 30px;
+  height: 30px;
+}
+.payoutMethods .row .col-lg-6 .conditions .d-flex .image-box img {
+  max-width: 30px;
+}
+.payoutMethods .row .col-lg-6 .conditions .d-flex span {
+  color: #FBF9ED;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=payout.css.map */

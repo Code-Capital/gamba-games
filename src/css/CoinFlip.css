@@ -1,0 +1,51 @@
+.coinFlip .row .col-lg-4 .h2 {
+  color: #C6A465;
+  font-size: 36px;
+  font-weight: 900;
+}
+.coinFlip .row .col-lg-4 .h2 span {
+  color: #FBF9ED;
+}
+.coinFlip .row .col-lg-4 .d-flex div span {
+  display: block;
+}
+.coinFlip .row .col-lg-4 .d-flex div span:first-child {
+  color: #C6A465;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 900;
+}
+.coinFlip .row .col-lg-4 .d-flex div span:last-child {
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+}
+.coinFlip .row .col-lg-4 .d-flex .coin .position-absolute {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6F7073;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 900;
+  line-height: normal;
+}
+.coinFlip .row .col-lg-4 .d-flex .coin .position-absolute.white {
+  color: #FBF9ED;
+}
+.coinFlip .row .col-lg-4 .d-flex .btnWrapper .btn {
+  background-color: #C6A465;
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+/*# sourceMappingURL=CoinFlip.css.map */

@@ -1,19 +1,23 @@
-import Header from "./component/Header.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/global.css'
-import Footer from "./component/Footer.jsx";
-import TabPagesLayout from "./layouts/TabPagesLayout.jsx";
-import UserDetailsLayout from "./layouts/UserDetailsLayout.jsx";
-import KingsRoad from "./component/KingsRoad.jsx";
+import MainPage from "./pages/MainPage.jsx";
+import DefaultPage from "./pages/DefaultPage.jsx";
+import ProfilePage from "./pages/ProfilePage.jsx";
+import KingRoadPage from "./pages/KingRoadPage.jsx";
+import GameRoulettePage from "./pages/GameRoulettePage.jsx";
+import CoinFlipPage from "./pages/CoinFlipPage.jsx";
+import UserRoulettePage from "./pages/UserRoulettePage.jsx";
 
 function App() {
     return (
         <>
-            <Header/>
-            <TabPagesLayout/>
-            <UserDetailsLayout/>
-            <KingsRoad/>
-            <Footer/>
+            {/*<CoinFlipPage/>*/}
+            {/*<GameRoulettePage/>*/}
+            {/*<MainPage/>*/}
+            <DefaultPage/>
+            {/*<ProfilePage/>*/}
+            {/*<KingRoadPage/>*/}
+            {/*<UserRoulettePage/>*/}
         </>
     )
 }

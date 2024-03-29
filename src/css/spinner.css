@@ -1,0 +1,81 @@
+.spinnerModal .position {
+  position: absolute;
+  top: -4rem;
+  z-index: 1;
+  width: 100%;
+}
+.spinnerModal .position span {
+  z-index: 999;
+  border-radius: 10px;
+  background-color: #201E21;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 992px) {
+  .spinnerModal .position span:nth-of-type(2) {
+    display: none;
+  }
+  .spinnerModal .position span:nth-of-type(4) {
+    display: none;
+  }
+}
+.spinnerModal .modal-content {
+  background: #201E21 !important;
+}
+.spinnerModal .modal-content .spinnerWrapper {
+  background-color: #282828;
+  border-radius: 10px;
+}
+.spinnerModal .modal-content .spinnerWrapper::-webkit-scrollbar {
+  display: none;
+}
+.spinnerModal .modal-content .spinnerWrapper .d-flex {
+  overflow-x: scroll;
+}
+.spinnerModal .modal-content .spinnerWrapper .singleItem {
+  min-width: 180px;
+  text-align: center;
+}
+.spinnerModal .modal-content .spinnerWrapper .singleItem img {
+  width: 112px;
+  height: 81px;
+}
+.spinnerModal .modal-content .spinnerWrapper .singleItem img.icon {
+  width: 20px;
+  height: 20px;
+}
+.spinnerModal .modal-content .spinnerWrapper .singleItem .text {
+  color: #FBF9ED !important;
+  font-size: 14px;
+  font-weight: 100;
+}
+.spinnerModal .modal-content .spinnerWrapper .singleItem .price span {
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.spinnerModal .modal-content .h2 {
+  color: #C6A465;
+  font-size: 36px;
+  font-weight: 900;
+}
+.spinnerModal .modal-content .h2 span {
+  color: #FBF9ED;
+}
+.spinnerModal .modal-content .d-flex .text {
+  color: #FBF9ED;
+  font-size: 14px;
+  font-weight: 300;
+}
+.spinnerModal .modal-content .d-flex button {
+  background-color: #C6A465;
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  height: 47px;
+}
+
+/*# sourceMappingURL=spinner.css.map */

@@ -1,3 +1,13 @@
+.tabPagesLayoutWrapper .container .py-5.text-center.h1 span {
+  color: #C6A465;
+  font-size: 36px;
+  font-weight: 900;
+}
+.tabPagesLayoutWrapper .container .py-5.text-center.h1 span span {
+  color: #FBF9ED;
+  font-size: 36px;
+  font-weight: 900;
+}
 .tabPagesLayoutWrapper .container .row .col-lg-12 .nav-tabs {
   margin: 0 auto;
   justify-content: center;

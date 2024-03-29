@@ -1,0 +1,101 @@
+.rakeBack {
+  border-radius: 12px;
+  padding: 1px;
+  background: linear-gradient(90deg, rgb(198, 164, 101) 0%, rgba(53, 53, 53, 0) 100%);
+  position: relative;
+}
+.rakeBack .borderColor {
+  padding: 1.3rem;
+}
+.rakeBack .borderColor .position-absolute {
+  border-radius: 12px;
+  background: url("../assets/rakeBack.png") #353535 0%/cover no-repeat;
+}
+.rakeBack .borderColor .position-absolute::before {
+  content: "";
+  border-radius: 12px;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.rakeBack .borderColor .row .col-lg-6 .h2 {
+  color: #C6A465;
+  font-size: 36px;
+  font-weight: 900;
+}
+.rakeBack .borderColor .row .col-lg-6 p {
+  color: #FBF9ED;
+  font-size: 12px;
+  font-weight: 250;
+}
+.rakeBack .borderColor .row .col-lg-6 p span {
+  color: #FBF9ED;
+  font-size: 12px;
+  font-weight: 400;
+}
+.rakeBack .borderColor .row .claim {
+  background-color: #434343;
+  border-radius: 12px;
+  color: #FBF9ED;
+  font-size: 12px;
+  font-weight: 250;
+}
+.rakeBack .borderColor .row .claim span {
+  color: #373636;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+}
+.rakeBack .borderColor .row .claim .btn {
+  background-color: #C6A465;
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.freeCoins {
+  border-radius: 12px;
+  padding: 1px;
+  background: linear-gradient(90deg, rgb(198, 164, 101) 0%, rgba(53, 53, 53, 0) 100%);
+  position: relative;
+}
+.freeCoins .borderColor {
+  padding: 1.3rem;
+}
+.freeCoins .borderColor .position-absolute {
+  border-radius: 12px;
+  background: url("../assets/freeCoin.png") #353535 0%/cover no-repeat;
+}
+.freeCoins .borderColor .position-absolute::before {
+  content: "";
+  border-radius: 12px;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.freeCoins .h2 {
+  color: #C6A465;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+.freeCoins .p {
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 200;
+}
+.freeCoins .p span {
+  color: #FBF9ED;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=home.css.map */

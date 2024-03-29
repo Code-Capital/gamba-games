@@ -1,5 +1,17 @@
 .tabPagesLayoutWrapper{
   .container{
+    .py-5.text-center.h1{
+      span{
+        color: #C6A465;
+        font-size: 36px;
+        font-weight: 900;
+        span{
+          color: #FBF9ED;
+          font-size: 36px;
+          font-weight: 900;
+        }
+      }
+    }
     .row{
       .col-lg-12{
         .nav-tabs{

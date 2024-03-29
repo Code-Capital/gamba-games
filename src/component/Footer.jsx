@@ -26,9 +26,9 @@ function Footer() {
                         </div>
                     </div>
                     <div className="row mx-0">
-                        <div className="col-lg-4 ">
+                        <div className="col-lg-4 col-md-12 mb-3">
                             <div className="text">
-                                <div className={"d-flex align-items-end gap-3 mb-5"}>
+                                <div className={"d-flex align-items-end  mb-5"}>
                                     <img className={"logo"} src={logo}/>
                                     <div className={"brand h2 mb-0"}>
                                         <span className={"first"}>GAMBA</span>
@@ -45,9 +45,9 @@ function Footer() {
                                 <li>© All rights reserved 2024</li>
                             </ul>
                         </div>
-                        <div className="col-lg-8 px-0">
+                        <div className="col-lg-8 px-0 mb-3">
                             <div className="row mx-0">
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-6">
                                     <div className="links">
                                         <h5 className={"mb-0"}>GAMES</h5>
                                         <ul className={"list-unstyled"}>
@@ -64,7 +64,7 @@ function Footer() {
                                     </div>
 
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-6">
                                     <div className="links">
                                         <h5 className={"mb-0"}>ABOUT US</h5>
                                         <ul className={"list-unstyled"}>
@@ -76,7 +76,7 @@ function Footer() {
                                     </div>
 
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-6">
                                     <div className="links">
                                         <h5 className={"mb-0"}>COMMUNITY</h5>
                                         <ul className={"list-unstyled"}>
@@ -88,7 +88,7 @@ function Footer() {
 
 
                                 </div>
-                                <div className="col-lg-3">
+                                <div className="col-lg-3 col-6">
                                     <div className="links">
                                         <h5 className={"mb-0"}>REWARDS</h5>
                                         <ul className={"list-unstyled"}>

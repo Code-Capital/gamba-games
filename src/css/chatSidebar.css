@@ -1,0 +1,149 @@
+.chatList .select {
+  cursor: pointer;
+}
+.chatList .select .optionClick {
+  background-color: #353535;
+  padding: 0.43rem 0.75rem;
+  transition: all 0.3s ease;
+}
+.chatList .select .optionClick .d-flex span {
+  color: #9D9D9D;
+  font-size: 14px;
+}
+.chatList .select .optionOpener {
+  transition: all 0.3s ease;
+  z-index: 99;
+}
+.chatList .select .optionWrapper {
+  background-color: #353535;
+  transition: 0.2s all ease-in-out;
+}
+.chatList .select .optionWrapper .option {
+  background-color: #353535;
+  padding: 0.43rem 0.75rem;
+}
+.chatList .select .optionWrapper .option .d-flex span {
+  color: #9D9D9D;
+  font-size: 14px;
+}
+.chatList .select .optionWrapper .option:hover {
+  border-radius: 0px !important;
+  background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
+}
+.chatList .list-unstyled {
+  min-height: calc(100vh - 220px);
+  max-height: calc(100vh - 220px);
+  overflow-y: scroll;
+}
+.chatList .list-unstyled::-webkit-scrollbar-track {
+  background: #434343;
+}
+.chatList .list-unstyled::-webkit-scrollbar-thumb {
+  background: #9D9D9D;
+}
+.chatList .list-unstyled::-webkit-scrollbar {
+  width: 2px;
+}
+.chatList .list-unstyled .user {
+  cursor: pointer;
+}
+.chatList .list-unstyled .user .userImg .position-absolute {
+  top: -1.05rem;
+  left: -1.05rem;
+  transform: rotate(-11deg);
+}
+.chatList .list-unstyled .user .userImg .position-absolute svg {
+  width: 28px;
+  height: 28px;
+}
+.chatList .list-unstyled .user .userImg img {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.chatList .list-unstyled .user .userDetails {
+  width: 100%;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:first-child {
+  border-radius: 3px;
+  color: #FBF9ED;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0.25rem 0.4rem;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:first-child.green {
+  background-color: #017455;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:first-child.golden {
+  background-color: #C6A465;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:first-child.white {
+  background-color: #FBF9ED;
+  color: #434343;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:first-child.purple {
+  background-color: #37023F;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:first-child.grey {
+  background-color: #434343;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .rank span:last-child {
+  color: #FBF9ED;
+  font-size: 12px;
+  font-weight: 600;
+}
+.chatList .list-unstyled .user .userDetails .d-flex .time {
+  color: #FBF9ED;
+  font-size: 10px;
+  font-weight: 100;
+}
+.chatList .list-unstyled .user .userDetails .text {
+  color: #9D9D9D;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 0.35rem;
+}
+.chatList .list-unstyled .user:hover {
+  background: linear-gradient(90deg, #C6A465 0%, rgba(53, 53, 53, 0) 100%);
+}
+.chatList .list-unstyled .user:hover .text {
+  color: #FBF9ED;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 0.35rem;
+}
+.chatList .list-unstyled .user:hover .userImg .position-absolute {
+  top: -1.05rem;
+  left: -1.05rem;
+  transform: rotate(-11deg);
+}
+.chatList .list-unstyled .user:hover .userImg .position-absolute svg {
+  fill: #FBF9ED;
+}
+.chatList .list-unstyled .user:hover .userImg img {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+.chatList .chatbutton .btn {
+  background-color: #C6A465;
+  color: #FBF9ED;
+  font-size: 12px;
+  font-weight: 600;
+}
+.chatList .chatbutton .d-flex span:first-child {
+  color: #FBF9ED;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.chatList .chatbutton .d-flex span:last-child {
+  color: #FBF9ED;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=chatSidebar.css.map */

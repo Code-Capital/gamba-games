@@ -1,0 +1,174 @@
+.GameSignedOut{
+  .row{
+    .col-lg-12{
+      .h5{
+        color: #FBF9ED;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .betAmount{
+        border-radius: 12px;
+        background: #353535;
+        .flex-grow-1{
+          img{
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+          }
+          span{
+            line-height: 0.9;
+            color: #FBF9ED;
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+        .btnWrapper{
+          .d-flex{
+            .filter{
+              color: #FBF9ED;
+              font-size: 12px;
+              font-weight: 500;
+            }
+            .filterApply{
+              span{
+                color: #FBF9ED;
+                text-align: center;
+                font-size: 12px;
+                font-weight: 600;
+                background-color: #C6A465;
+                border-radius: 5px;
+                min-width: 40px;
+              }
+            }
+
+          }
+        }
+      }
+    }
+    .col-lg-3{
+    .roultenePower{
+      .image-box{
+        span{
+          color: #FBF9ED;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+
+      &.red{
+        border-radius: 12px;
+        background-color: #800020;
+        .power{
+          span{
+            color: #590016;
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+      }
+      &.green{
+        border-radius: 12px;
+        background-color: #017455;
+        .power{
+          span{
+            color: #004B37;
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+      }
+      &.grey{
+        border-radius: 12px;
+        background-color: #434343;
+        .power{
+          span{
+            color: #292929;
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+      }
+      &.purple{
+        border-radius: 12px;
+        background-color: #37023F;
+        .power{
+          span{
+            color: #27012D;
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+
+      }
+
+    }
+    .roulteneHistory{
+      border-radius: 12px;
+      background: #353535;
+      .roulteneHead{
+        border-bottom: 1px solid #9D9D9D;
+        .right{
+          img{
+            width: 15px;
+            height: 15px;
+            flex-shrink: 0;
+          }
+          span{
+            color: #FBF9ED;
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+        .left{
+          img{
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+          }
+          span{
+            color: #FBF9ED;
+            font-size: 12px;
+            font-weight: 400;
+          }
+        }
+      }
+      .position-absolute{
+        border-bottom-left-radius:12px;
+        border-bottom-right-radius:12px;
+        background: linear-gradient(0deg, #282828 0%, rgba(40, 40, 40, 0.00) 100%);
+        height: 75px;
+      }
+      .roulteneBody{
+        .roulteneItem{
+          border-bottom: 1px solid #292929;
+          .right{
+            img{
+              width: 15px;
+              height: 15px;
+              flex-shrink: 0;
+            }
+            span{
+              color: #FBF9ED;
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+          .left{
+            img{
+              width: 15px;
+              height: 15px;
+              flex-shrink: 0;
+            }
+            span{
+              color: #FBF9ED;
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+}

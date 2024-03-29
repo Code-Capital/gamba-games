@@ -1,0 +1,241 @@
+.withDraw {
+  .row {
+    .col-md-8{
+      .inputWrapper{
+        label{
+          font-size: 14px;
+          font-weight: 400;
+          color: #FBF9ED;
+        }
+        input{
+          background-color: #353535;
+          border-color:#353535 ;
+          border-radius: 5px;
+          color: #9D9D9D;
+          font-size: 14px;
+          font-weight: 400;
+          &::placeholder{
+            color: #9D9D9D;
+          }
+
+          &:focus-visible , &:focus{
+            box-shadow: unset !important;
+            border-color: #FBF9ED !important;
+            outline: unset !important;
+          }
+        }
+      }
+    }
+    .col-md-4{
+      button{
+        background-color: #C6A465;
+        color: #FBF9ED;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 400;
+        height: 33px;
+      }
+    }
+    .col-lg-12{
+      .h2{
+        color: #FBF9ED;;
+        font-size: 16px;
+        font-weight: 900;
+        span{
+          color: #C6A465;
+        }
+      }
+      .text-center{
+        color: #9D9D9D;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+      }
+    }
+    .col-md-3, .col-md-6 {
+      .wrapper {
+        cursor: pointer;
+        .money {
+          cursor: pointer;
+          width: 100%;
+          min-height: 70px;
+          border-radius: 5px 5px 0 0;
+          background: #353535;
+
+          &.bg-rust {
+            &:hover {
+              background-color: #CE422B;
+
+              svg {
+                path {
+                  fill: #281C1C;
+                }
+
+              }
+            }
+          }
+
+          &.bg-tf {
+            &:hover {
+              background-color: #262425;
+
+              svg {
+                path {
+                  fill: #9D5322;
+                }
+
+              }
+            }
+          }
+
+          &.bg-Csgo {
+            &:hover {
+              background-color: #EABF62;
+
+              svg {
+                path {
+                  fill: #000000;
+                }
+
+              }
+            }
+          }
+
+          &.bg-Dota {
+            &:hover {
+              background-color: #4D4C4B;
+
+              svg {
+                path {
+                  fill: #D43B24;
+                }
+
+              }
+            }
+          }
+
+          &.bg-ethrium {
+            &:hover {
+              background-color: #627EEA;
+
+              svg {
+                path {
+                  fill: #FFFFFF;
+                }
+
+              }
+            }
+          }
+
+          &.bg-bitcoin {
+            &:hover {
+              background-color: #F7931A;
+
+              svg {
+                path {
+                  fill: #FFFFFF;
+                }
+
+              }
+            }
+          }
+
+          &.bg-card {
+            &:hover {
+              background-color: #0E4595;
+
+              svg {
+                path {
+                  fill: #FFFFFF;
+                }
+
+              }
+            }
+          }
+
+          &.bg-paypal {
+            &:hover {
+              background-color: #FFFFFF;
+
+              svg {
+                path {
+                  &:first-child {
+                    fill: #002987;
+                  }
+
+                  &:last-child {
+                    fill: #0085CC;
+                  }
+
+                }
+
+              }
+            }
+          }
+
+          &.bg-paysafe {
+            &:hover {
+              background-color: #FFFFFF;
+
+              svg {
+                path {
+                  fill: #FE0115;
+                }
+
+              }
+            }
+          }
+
+          &.bg-google {
+            svg {
+              path {
+                &:nth-of-type(1) {
+                  fill: #C6A465;
+                }
+
+              }
+
+            }
+
+            &:hover {
+              background-color: #FFFFFF;
+
+              svg {
+                path {
+                  &:nth-of-type(1) {
+                    fill: #FFC107;
+                  }
+
+                  &:nth-of-type(2) {
+                    fill: #FF3D00;
+                  }
+
+                  &:nth-of-type(3) {
+                    fill: #4CAF50;
+                  }
+
+                  &:nth-of-type(4) {
+                    fill: #1976D2;
+                  }
+
+                }
+
+              }
+            }
+          }
+
+        }
+        .name {
+          background-color: #282828;
+          color: #FBF9ED;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 900;
+          border-radius: 0 0 5px 5px;
+        }
+      }
+
+    }
+  }
+}
+
