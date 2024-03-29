@@ -2,7 +2,7 @@
   .logo {
     width: 260px;
     //background-image: url("../assets/logo-bg.png");
-    background: url("../assets/logo-bg.png") #201E21 50% / cover no-repeat;
+    background: url('../assets/logo-bg.png') #201e21 50% / cover no-repeat;
     background-size: cover;
 
     img {
@@ -19,7 +19,6 @@
         transform: rotateY(360deg);
       }
     }
-
   }
 
   #navbarScroll {
@@ -28,7 +27,7 @@
     padding-bottom: 5px;
 
     .nav-link {
-      color: #9D9D9D;
+      color: #9d9d9d;
       font-size: 12px;
       padding-left: 1rem !important;
       padding-right: 1rem !important;
@@ -36,11 +35,10 @@
 
     .social {
       span {
-        border: 1px solid #9D9D9D;
+        border: 1px solid #9d9d9d;
         border-radius: 3px;
-        color: #9D9D9D;
+        color: #9d9d9d;
       }
-
     }
   }
 
@@ -51,7 +49,7 @@
 
     .d-flex {
       span {
-        color: #9D9D9D;
+        color: #9d9d9d;
 
         &.pill {
           cursor: pointer;
@@ -63,7 +61,7 @@
 
         &.border {
           border-width: 2px !important;
-          border-color: #9D9D9D !important;
+          border-color: #9d9d9d !important;
         }
 
         .iconRotate {
@@ -77,7 +75,7 @@
         }
 
         &.volume {
-          /* VolumeSlider.css */
+          /* VolumeSlider.scss */
           .volume-slider {
             width: 120px;
             margin-bottom: 0.4rem;
@@ -88,11 +86,11 @@
             width: 100%;
             height: 2px;
             border-radius: 5px;
-            background: linear-gradient(to right, #C6A465 50%, #fff 50%);
+            background: linear-gradient(to right, #c6a465 50%, #fff 50%);
             outline: none;
             opacity: 0.7;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
+            -webkit-transition: 0.2s;
+            transition: opacity 0.2s;
           }
 
           .slider:hover {
@@ -100,11 +98,11 @@
           }
 
           .slider.high-volume {
-            background: linear-gradient(to right, #C6A465 50%, #fff 50%);
+            background: linear-gradient(to right, #c6a465 50%, #fff 50%);
           }
 
           .slider.low-volume {
-            background: linear-gradient(to right, #C6A465 50%, #fff 50%);
+            background: linear-gradient(to right, #c6a465 50%, #fff 50%);
           }
 
           .slider::-webkit-slider-thumb {
@@ -113,7 +111,7 @@
             width: 8px;
             height: 8px;
             border-radius: 1px;
-            background: #D7D5CB;
+            background: #d7d5cb;
             cursor: pointer;
           }
 
@@ -121,12 +119,11 @@
             width: 8px;
             height: 8px;
             border-radius: 1px;
-            background: #D7D5CB;
+            background: #d7d5cb;
             cursor: pointer;
           }
         }
       }
-
     }
 
     .walletButton {
@@ -134,98 +131,94 @@
       padding: 1px;
       background: linear-gradient(90deg, rgb(198, 164, 101) 0%, rgba(53, 53, 53, 0) 100%);
       position: relative;
-      .position-absolute{
+      .position-absolute {
         padding: 2px;
         background: #353535 0% / cover no-repeat;
         border-radius: 3px;
-
       }
-      .position-relative{
+      .position-relative {
         border-radius: 3px;
         padding: 1px;
         .bal {
           span {
-            color: #FBF9ED;
+            color: #fbf9ed;
             font-size: 12px;
             font-weight: 700;
           }
         }
         .btn {
-          color: #FBF9ED;
+          color: #fbf9ed;
           text-align: center;
-          background-color: #C6A465;
+          background-color: #c6a465;
           font-size: 12px;
           font-weight: 600;
         }
       }
-
     }
 
     .loginWrapper {
       span {
         &:first-child {
-          color: #C6A465;
+          color: #c6a465;
           font-weight: 500;
           font-size: 12px;
           border-radius: 3px;
           cursor: pointer;
 
           &:hover {
-            background-color: #C6A465;
+            background-color: #c6a465;
             border-radius: 3px;
-            color: #FBF9ED;
+            color: #fbf9ed;
 
             svg {
-              fill: #FBF9ED;
-
+              fill: #fbf9ed;
             }
           }
         }
 
         &.login {
-          background-color: #C6A465;
+          background-color: #c6a465;
           border-radius: 3px;
-          color: #FBF9ED;
+          color: #fbf9ed;
           font-weight: 600;
           font-size: 12px;
           cursor: pointer;
         }
       }
-      .dropdownCustom{
+      .dropdownCustom {
         background-color: unset !important;
         background-image: unset !important;
-        &:after{
+        &:after {
           border: unset !important;
         }
-        img{
+        img {
           width: 33px;
           height: 33px;
           object-fit: contain;
           border-radius: 4px;
         }
-
       }
-      .menu{
+      .menu {
         border-radius: unset;
         background-color: #282828 !important;
         border-color: #282828 !important;
-        .dropdown-item{
+        .dropdown-item {
           font-size: 12px;
-          color:#FBF9ED;
-          &:hover{
-            background: linear-gradient(90deg, rgba(198, 164, 101, 0.30) 0%, rgba(53, 53, 53, 0.00) 100%);
+          color: #fbf9ed;
+          &:hover {
+            background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
           }
-          &:focus-visible , &:focus , &:active{
-            background: linear-gradient(90deg, rgba(198, 164, 101, 0.30) 0%, rgba(53, 53, 53, 0.00) 100%);
+          &:focus-visible,
+          &:focus,
+          &:active {
+            background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
           }
         }
       }
-      .dropdown-menu[data-bs-popper]{
+      .dropdown-menu[data-bs-popper] {
         left: unset !important;
-
       }
     }
-
   }
 
   .dropDown {
@@ -235,7 +228,6 @@
     width: calc(100% - 260px);
     background-color: #282828;
     z-index: 99;
-
 
     visibility: hidden;
     opacity: 0;
@@ -251,7 +243,7 @@
       .game {
         border-radius: 12px;
         min-width: 24%;
-        background: url("../assets/game.png") #353535 50% / cover no-repeat;
+        background: url('../assets/game.png') #353535 50% / cover no-repeat;
         min-height: 100%;
         text-align: center;
 
@@ -273,17 +265,17 @@
         }
 
         span:first-child {
-          color: #FBF9ED;
+          color: #fbf9ed;
           font-size: 12px;
           font-weight: 700;
         }
 
         span:last-child {
-          color: #FBF9ED;
+          color: #fbf9ed;
           font-size: 12px;
           font-weight: 700;
           border-radius: 3px;
-          background: #C6A465;
+          background: #c6a465;
         }
       }
     }
@@ -300,10 +292,4 @@
       }
     }
   }
-
 }
-
-
-
-
-

@@ -1,9 +1,7 @@
 .flexWrapper {
-
   left: -260px;
   position: relative;
   transition: 0.2s all ease-in-out;
-
 
   &.active {
     left: 0;
@@ -15,7 +13,7 @@
     max-width: 260px;
     background-color: #282828;
 
-    .Sidebtn{
+    .Sidebtn {
       border-radius: 0px 3px 3px 0px;
       background-color: #282828 !important;
 
@@ -31,7 +29,7 @@
     max-height: calc(100vh - 98px);
     overflow-y: scroll;
     transition: 0.5s all ease-in-out;
-    background: url("../../assets/mainbg.png") #201E21 50% / cover no-repeat;
+    background: url('../../assets/mainbg.png') #201e21 50% / cover no-repeat;
 
     &.active {
       min-width: 100vw;
