@@ -27,6 +27,12 @@ import { useNavigate } from 'react-router-dom';
 import { useAppState } from '../hooks';
 
 export default function Header() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleToggleClick = () => {
+    setIsActive(!isActive);
+  };
+
   const navigate = useNavigate();
   const { setActiveTab } = useAppState();
 
@@ -60,11 +66,19 @@ export default function Header() {
   return (
     <div className={'header'}>
       <Navbar expand='lg' className='p-0'>
-        <Container fluid className={'px-0 align-items-start'}>
+        <Container fluid className={'px-0 align-items-center'}>
           <Navbar.Brand className={'logo text-center py-3 m-0'} href='#'>
             <img src={logo} />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='navbarScroll' />
+
+          <Navbar.Toggle
+              aria-controls='navbarScroll'
+              onClick={handleToggleClick}
+              className={isActive ? 'nav-active' : ''}
+          >
+            <span></span>
+            <span></span>
+          </Navbar.Toggle>
           <div className='d-flex flex-column flex-grow-1'>
             <Navbar.Collapse id='navbarScroll'>
               <Nav className='me-auto my-2 my-lg-0' style={{ maxHeight: '100px' }} navbarScroll>
@@ -92,7 +106,7 @@ export default function Header() {
                 </span>
               </div>
             </Navbar.Collapse>
-            <div className={'header-bottom-bar px-4 d-flex align-items-center justify-content-between'}>
+            <div className={'header-bottom-bar px-4 d-flex align-items-center justify-content-between flex-wrap gap-2'}>
               <div className={'d-flex flex-wrap gap-3 py-2'}>
                 <span>
                   <img src={tomb} />
@@ -141,7 +155,7 @@ export default function Header() {
                   <CoinIcon />
                   <small className={''}>Free Coins</small>
                 </span>
-                <span onClick={handleShowLoginModal} className={'px-5 py-2 login'}>
+                <span onClick={handleShowLoginModal} className={'px-5 py-2 login d-none'}>
                   Login
                 </span>
 

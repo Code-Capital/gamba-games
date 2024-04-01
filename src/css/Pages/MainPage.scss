@@ -2,16 +2,34 @@
   left: -260px;
   position: relative;
   transition: 0.2s all ease-in-out;
+  @media only screen and (max-width: 992px){
+    display: unset !important;
+    position: relative !important;
+    left: unset !important;
+
+  }
 
   &.active {
     left: 0;
     transition: 0.2s all ease-in-out;
+
   }
 
   .chatSidebar {
     min-width: 260px;
     max-width: 260px;
     background-color: #282828;
+    @media only screen and (max-width: 992px){
+      position: absolute !important;
+      top: 0 !important;
+      z-index: 999 !important;
+      left: -260px;
+      transition: 0.2s all ease-in-out;
+      &.active {
+        left: 0;
+        transition: 0.2s all ease-in-out;
+      }
+    }
 
     .Sidebtn {
       border-radius: 0px 3px 3px 0px;
@@ -30,6 +48,9 @@
     overflow-y: scroll;
     transition: 0.5s all ease-in-out;
     background: url('../../assets/mainbg.png') #201e21 50% / cover no-repeat;
+    @media only screen and (max-width: 992px){
+      min-width: 100vw !important;
+    }
 
     &.active {
       min-width: 100vw;

@@ -1,0 +1,326 @@
+.header {
+  background-color: #282828;
+}
+.header .logo {
+  width: 260px;
+  background: url("../assets/logo-bg.png") #201e21 50%/cover no-repeat;
+  background-size: cover;
+}
+.header .logo img {
+  width: 110px;
+  height: 65px;
+  animation: animName 4s linear infinite;
+}
+@keyframes animName {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.header .navbar-toggler {
+  border: unset !important;
+}
+.header .navbar-toggler:active, .header .navbar-toggler:focus-visible, .header .navbar-toggler:focus {
+  border: unset !important;
+  box-shadow: unset !important;
+}
+.header .navbar-toggler.nav-active {
+  position: relative;
+  transition: 0.2s all ease-in-out;
+}
+.header .navbar-toggler.nav-active span:first-child {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4px;
+  transition: 0.2s all ease-in-out;
+}
+.header .navbar-toggler.nav-active span:last-child {
+  transform: rotate(-45deg);
+  transition: 0.2s all ease-in-out;
+  width: 50px;
+}
+.header .navbar-toggler span {
+  transition: 0.2s all ease-in-out;
+}
+.header .navbar-toggler span:first-child {
+  width: 50px;
+  height: 3px;
+  display: block;
+  margin-bottom: 8px;
+  background-color: #c6a465;
+  transition: 0.2s all ease-in-out;
+}
+.header .navbar-toggler span:last-child {
+  width: 40px;
+  height: 3px;
+  display: block;
+  margin-bottom: 8px;
+  background-color: #c6a465;
+  transition: 0.2s all ease-in-out;
+}
+.header #navbarScroll {
+  background-color: #434343;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media only screen and (max-width: 992px) {
+  .header #navbarScroll {
+    position: absolute;
+    left: -100%;
+    background-color: #434343;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    transition: 0.2s all ease-in-out;
+    top: 6rem;
+    z-index: 9999;
+  }
+  .header #navbarScroll.show {
+    top: 6rem;
+    left: 0 !important;
+    transition: 0.2s all ease-in-out;
+    height: 100vh !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .header #navbarScroll .navbar-nav-scroll {
+    display: block;
+    min-height: calc(100vh - 6rem) !important;
+  }
+}
+.header #navbarScroll .nav-link {
+  color: #9d9d9d;
+  font-size: 12px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.header #navbarScroll .social span {
+  border: 1px solid #9d9d9d;
+  border-radius: 3px;
+  color: #9d9d9d;
+}
+.header .header-bottom-bar {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: #282828;
+}
+@media only screen and (max-width: 992px) {
+  .header .header-bottom-bar {
+    justify-content: center !important;
+  }
+}
+.header .header-bottom-bar .d-flex span {
+  color: #9d9d9d;
+}
+.header .header-bottom-bar .d-flex span.pill {
+  cursor: pointer;
+  background-color: #353535;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.header .header-bottom-bar .d-flex span.border {
+  border-width: 2px !important;
+  border-color: #9d9d9d !important;
+}
+.header .header-bottom-bar .d-flex span .iconRotate {
+  transition: transform 0.3s ease;
+  transform: rotate(0deg);
+}
+.header .header-bottom-bar .d-flex span .iconRotate.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+.header .header-bottom-bar .d-flex span.volume {
+  /* VolumeSlider.scss */
+}
+.header .header-bottom-bar .d-flex span.volume .volume-slider {
+  width: 120px;
+  margin-bottom: 0.4rem;
+}
+.header .header-bottom-bar .d-flex span.volume .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #c6a465 50%, #fff 50%);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+.header .header-bottom-bar .d-flex span.volume .slider:hover {
+  opacity: 1;
+}
+.header .header-bottom-bar .d-flex span.volume .slider.high-volume {
+  background: linear-gradient(to right, #c6a465 50%, #fff 50%);
+}
+.header .header-bottom-bar .d-flex span.volume .slider.low-volume {
+  background: linear-gradient(to right, #c6a465 50%, #fff 50%);
+}
+.header .header-bottom-bar .d-flex span.volume .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+  background: #d7d5cb;
+  cursor: pointer;
+}
+.header .header-bottom-bar .d-flex span.volume .slider::-moz-range-thumb {
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+  background: #d7d5cb;
+  cursor: pointer;
+}
+.header .header-bottom-bar .walletButton {
+  border-radius: 3px;
+  padding: 1px;
+  background: linear-gradient(90deg, rgb(198, 164, 101) 0%, rgba(53, 53, 53, 0) 100%);
+  position: relative;
+}
+.header .header-bottom-bar .walletButton .position-absolute {
+  padding: 2px;
+  background: #353535 0%/cover no-repeat;
+  border-radius: 3px;
+}
+.header .header-bottom-bar .walletButton .position-relative {
+  border-radius: 3px;
+  padding: 1px;
+}
+.header .header-bottom-bar .walletButton .position-relative .bal span {
+  color: #fbf9ed;
+  font-size: 12px;
+  font-weight: 700;
+}
+.header .header-bottom-bar .walletButton .position-relative .btn {
+  color: #fbf9ed;
+  text-align: center;
+  background-color: #c6a465;
+  font-size: 12px;
+  font-weight: 600;
+}
+.header .header-bottom-bar .loginWrapper span:first-child {
+  color: #c6a465;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.header .header-bottom-bar .loginWrapper span:first-child:hover {
+  background-color: #c6a465;
+  border-radius: 3px;
+  color: #fbf9ed;
+}
+.header .header-bottom-bar .loginWrapper span:first-child:hover svg {
+  fill: #fbf9ed;
+}
+.header .header-bottom-bar .loginWrapper span.login {
+  background-color: #c6a465;
+  border-radius: 3px;
+  color: #fbf9ed;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header .header-bottom-bar .loginWrapper .dropdownCustom {
+  background-color: unset !important;
+  background-image: unset !important;
+}
+.header .header-bottom-bar .loginWrapper .dropdownCustom:after {
+  border: unset !important;
+}
+.header .header-bottom-bar .loginWrapper .dropdownCustom img {
+  width: 33px;
+  height: 33px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.header .header-bottom-bar .loginWrapper .menu {
+  border-radius: unset;
+  background-color: #282828 !important;
+  border-color: #282828 !important;
+}
+.header .header-bottom-bar .loginWrapper .menu .dropdown-item {
+  font-size: 12px;
+  color: #fbf9ed;
+}
+.header .header-bottom-bar .loginWrapper .menu .dropdown-item:hover {
+  background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
+}
+.header .header-bottom-bar .loginWrapper .menu .dropdown-item:focus-visible, .header .header-bottom-bar .loginWrapper .menu .dropdown-item:focus, .header .header-bottom-bar .loginWrapper .menu .dropdown-item:active {
+  background: linear-gradient(90deg, rgba(198, 164, 101, 0.3) 0%, rgba(53, 53, 53, 0) 100%);
+}
+.header .header-bottom-bar .loginWrapper .dropdown-menu[data-bs-popper] {
+  left: unset !important;
+}
+.header .dropDown {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(100% - 260px);
+  background-color: #282828;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.9s ease-in-out;
+}
+@media only screen and (max-width: 992px) {
+  .header .dropDown {
+    width: 100%;
+  }
+}
+.header .dropDown.open {
+  transition: all 0.9s ease-in-out;
+  visibility: visible;
+  opacity: 1;
+}
+.header .dropDown .d-flex .game {
+  border-radius: 12px;
+  min-width: 24%;
+  background: url("../assets/game.png") #353535 50%/cover no-repeat;
+  min-height: 100%;
+  text-align: center;
+}
+.header .dropDown .d-flex .game img {
+  width: 70px;
+  height: 60px;
+  position: relative;
+  top: -5px;
+  animation: animName 4s linear infinite;
+}
+@keyframes animName {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.header .dropDown .d-flex .game span:first-child {
+  color: #fbf9ed;
+  font-size: 12px;
+  font-weight: 700;
+}
+.header .dropDown .d-flex .game span:last-child {
+  color: #fbf9ed;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+  background: #c6a465;
+}
+@media only screen and (max-width: 992px) {
+  .header .dropDown .d-flex .game {
+    min-width: 50%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .header .dropDown .d-flex .game {
+    min-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

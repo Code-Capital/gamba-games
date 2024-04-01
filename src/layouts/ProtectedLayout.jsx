@@ -12,7 +12,7 @@ export const ProtectedLayout = () => {
     <div>
       <Header />
       <div className={`d-flex align-items-start flexWrapper ${isOpen ? 'active' : ''}`}>
-        <div className='chatSidebar py-2 position-relative top-50'>
+        <div className={`chatSidebar py-2 position-relative top-50 ${isOpen ? 'active' : ''}`}>
           <button className={'btn Sidebtn position-absolute'} onClick={() => setIsOpen((flag) => !flag)}>
             <SideBarArrow />
           </button>
