@@ -1,5 +1,5 @@
-import '../css/gameHistorty.scss';
-import gameToken from '../assets/gameToken.svg';
+import '../../../css/gameHistorty.scss';
+import gameToken from '../../../assets/gameToken.svg';
 
 function GameHistory() {
   const games = [

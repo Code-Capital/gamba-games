@@ -1,6 +1,6 @@
-import '../css/support.scss';
+import '../../../css/support.scss';
 
-function Support() {
+export function Support() {
   return (
     <div>
       <div className='support'>
@@ -22,5 +22,3 @@ function Support() {
     </div>
   );
 }
-
-export default Support;

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import '../css/selfExlusion.scss';
+import { useState } from 'react';
+import '../../../css/selfExlusion.scss';
 
 function SelfExclusion() {
   const durations = ['1 Day', '2 Days', '5 Days', '1 Week', '2 Weeks', '5 Weeks'];
