@@ -1,5 +1,5 @@
-import gameToken from '../assets/gameToken.svg';
-import '../css/transacionHistory.scss';
+import gameToken from '../../../assets/gameToken.svg';
+import '../../../css/transacionHistory.scss';
 
 function Transactions() {
   const transactions = [
