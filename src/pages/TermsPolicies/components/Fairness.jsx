@@ -1,5 +1,5 @@
-import '../css/fairness.scss';
-function Fairness() {
+import '../../../css/fairness.scss';
+export function Fairness() {
   return (
     <div>
       <div className='fair'>
@@ -54,5 +54,3 @@ function Fairness() {
     </div>
   );
 }
-
-export default Fairness;

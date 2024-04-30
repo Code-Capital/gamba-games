@@ -1,6 +1,6 @@
-import '../css/privacy.scss';
+import '../../../css/privacy.scss';
 
-function Privacy() {
+export function Privacy() {
   return (
     <div>
       <div className='privacy'>
@@ -58,5 +58,3 @@ function Privacy() {
     </div>
   );
 }
-
-export default Privacy;

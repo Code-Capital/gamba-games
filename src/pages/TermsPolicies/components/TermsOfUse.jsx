@@ -1,5 +1,5 @@
-import '../css/tos.scss';
-function TermsOfUse() {
+import '../../../css/tos.scss';
+export function TermsOfUse() {
   return (
     <div>
       <div className='termsService'>
@@ -90,5 +90,3 @@ function TermsOfUse() {
     </div>
   );
 }
-
-export default TermsOfUse;

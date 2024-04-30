@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import '../css/settings.scss';
-import uk from '../assets/uk.svg';
-import icon6 from '../assets/icon6.svg';
-import icon7 from '../assets/icon7.svg';
-import Prefrences from './Prefrences';
-import LinkedPlatforms from './LinkedPlatforms';
+import '../../../css/settings.scss';
+import uk from '../../../assets/uk.svg';
+import icon6 from '../../../assets/icon6.svg';
+import icon7 from '../../../assets/icon7.svg';
+import Prefrences from '../../../component/Prefrences';
+import LinkedPlatforms from '../../../component/LinkedPlatforms';
 
 function Settings() {
   const [isOpen, setIsOpen] = useState(false);
