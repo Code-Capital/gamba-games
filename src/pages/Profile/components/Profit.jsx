@@ -1,5 +1,5 @@
-import icon5 from '../assets/icon5.svg';
-import '../css/profit.scss';
+import icon5 from '../../../assets/icon5.svg';
+import '../../../css/profit.scss';
 
 function Profit() {
   return (

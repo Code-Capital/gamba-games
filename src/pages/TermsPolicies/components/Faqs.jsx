@@ -1,6 +1,6 @@
-import '../css/faqs.scss';
+import '../../../css/faqs.scss';
 
-function Faqs(props) {
+export function Faqs() {
   return (
     <div>
       <div className='faqsWrapper'>
@@ -32,5 +32,3 @@ function Faqs(props) {
     </div>
   );
 }
-
-export default Faqs;

@@ -1,6 +1,6 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import { ProtectedLayout } from '../layouts/ProtectedLayout';
-import { CoinFlip, Home, GameRoulette, TermsPolicies, Profile, KingsRoad, UserRoutette } from '../pages';
+import { CoinFlip, Home, GameRoulette, Profile, KingsRoad, UserRoutette, TermsPolicies } from '../pages';
 
 export const ProtectedRoutes = () => {
   return (
@@ -9,11 +9,27 @@ export const ProtectedRoutes = () => {
         <Route index element={<Home />} />
         <Route path='/coinflip' element={<CoinFlip />} />
         <Route path='/roulette' element={<GameRoulette />} />
-        <Route path='/terms-and-policies' element={<TermsPolicies />} />
-        <Route path='/profile' element={<Profile />} />
         <Route path='/kingroad' element={<KingsRoad />} />
         <Route path='/user-roulette' element={<UserRoutette />} />
-        <Route path='*' element={<Home />} />
+
+        {/* Terms and Policies */}
+
+        <Route path='/privacy-policy' element={<TermsPolicies />} />
+        <Route path='/affiliates' element={<TermsPolicies />} />
+        <Route path='/terms-of-service' element={<TermsPolicies />} />
+        <Route path='/faq' element={<TermsPolicies />} />
+        <Route path='/support' element={<TermsPolicies />} />
+        <Route path='/fairness' element={<TermsPolicies />} />
+
+        {/* Profile */}
+
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/settings' element={<Profile />} />
+        <Route path='/selfExclusion' element={<Profile />} />
+        <Route path='/gameHistory' element={<Profile />} />
+        <Route path='/transactions' element={<Profile />} />
+
+        <Route path='/*' element={<Navigate replace to='/' />} />
       </Route>
     </Routes>
   );

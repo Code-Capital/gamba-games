@@ -1,24 +1,24 @@
 import React from 'react';
-import '../css/affiliates.scss';
-import logo from '../assets/logo.png';
-import CopyIcon from './Icons/CopyIcon.jsx';
-import workCard1 from '../assets/workCard1.png';
-import workCard2 from '../assets/workCard2.png';
-import workCard3 from '../assets/workCard3.png';
-import workCard4 from '../assets/workCard4.png';
-import knight from '../assets/knight.png';
-import king from '../assets/king.png';
-import noble from '../assets/noble.png';
-import swordsman from '../assets/swordsman.png';
-import squire from '../assets/squire.png';
-import avatar from '../assets/avatar.png';
-import icon13 from '../assets/icon13.svg';
-import gameToken from '../assets/gameToken.svg';
+import '../../../css/affiliates.scss';
+import logo from '../../../assets/logo.png';
+import CopyIcon from '../../../component/Icons/CopyIcon.jsx';
+import workCard1 from '../../../assets/workCard1.png';
+import workCard2 from '../../../assets/workCard2.png';
+import workCard3 from '../../../assets/workCard3.png';
+import workCard4 from '../../../assets/workCard4.png';
+import knight from '../../../assets/knight.png';
+import king from '../../../assets/king.png';
+import noble from '../../../assets/noble.png';
+import swordsman from '../../../assets/swordsman.png';
+import squire from '../../../assets/squire.png';
+import avatar from '../../../assets/avatar.png';
+import icon13 from '../../../assets/icon13.svg';
+import gameToken from '../../../assets/gameToken.svg';
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import Refree from './Refree.jsx';
-import Stats from './Stats.jsx';
+import Refree from '../../../component/Refree.jsx';
+import Stats from '../../../component/Stats.jsx';
 
-function Affiliates(props) {
+export function Affiliates() {
   return (
     <div>
       <div className='affiliatesWrapper py-5'>
@@ -255,5 +255,3 @@ function Affiliates(props) {
     </div>
   );
 }
-
-export default Affiliates;
